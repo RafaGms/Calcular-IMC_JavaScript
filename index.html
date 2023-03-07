@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="./assets/favicon-16x16.png" type="image/x-icon">
+    <title>IMC</title>
+  </head>
+  <body>
+    <div class="container-imc">
+      <h1>Calculadora de IMC</h1>
+
+      <div class="container-inputs">
+        <label for="">Peso</label>
+        <input id="peso" name="peso" type="text" />
+
+        <label for="">Altura</label>
+        <input id="altura" name="altura" type="text" />
+
+        <select name="select">
+            <option value="valor1"selected disabled>Gênero</option>
+            <option value="valor2" >Mulher</option>
+            <option value="valor3">Homen</option>
+          </select>
+
+        <p id="resposta"></p>
+
+       
+      </div>
+
+      <button id="calcular">Calcular</button>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.container-imc {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(15, 0, 29);
+  padding: 1rem;
+}
+
+.container-imc h1 {
+  margin-bottom: 1rem;
+}
+
+.container-inputs input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+}
+
+.container-inputs label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container-inputs select {
+  width: 150px;
+  padding: 0.25rem;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  appearance: none;
+}
+.container-inputs select option {
+  background-color: black;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none;
+}
+
+#resposta {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0px;
+}
+
+#calcular {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  border-radius: 1rem;
+}
+
+@media (min-width: 550px) {
+  body {
+    background-color: rgb(216, 216, 216) !important;
+  }
+  .container-imc {
+    max-width: 550px;
+    margin: 2rem auto;
+    height: 100%;
+    background-color: rgb(15, 0, 29);
+    padding: 3rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 10px 10px 22px -1px rgba(133, 133, 133, 0.93);
+    -moz-box-shadow: 10px 10px 22px -1px rgba(133, 133, 133, 0.93);
+    box-shadow: 10px 10px 22px -1px rgba(133, 133, 133, 0.93);
+  }
+}
