@@ -61,6 +61,7 @@
   font-weight: bold;
   text-align: center;
   margin: 1rem 0px;
+  visibility:hidden
 }
 
 #calcular {
@@ -91,5 +92,6 @@
     -webkit-box-shadow: 10px 10px 22px -1px rgba(133, 133, 133, 0.93);
     -moz-box-shadow: 10px 10px 22px -1px rgba(133, 133, 133, 0.93);
     box-shadow: 10px 10px 22px -1px rgba(133, 133, 133, 0.93);
+    color: #e94545;
   }
 }
